@@ -1,0 +1,22 @@
+{
+  "name": "capturoo-template-simple-html",
+  "version": "1.0.0",
+  "description": "The simplest possible Capturoo setup in a single HTML file",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "npm run clean && VERSION=1.0.0 scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capturoo/capturoo-template-simple-html.git"
+  },
+  "author": "Capturoo <support@capturoo.com> (https://www.capturoo.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capturoo/capturoo-template-simple-html/issues"
+  },
+  "homepage": "https://github.com/capturoo/capturoo-template-simple-html#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.2"
+  }
+}

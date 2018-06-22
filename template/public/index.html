@@ -3,16 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>{{ title }}</title>
-  <script src="{{ sdk }}"></script>
+  <script src="https://code.capturoo.com/capturoo-sdk-0.4.0.js""></script>
 </head>
 <body>
 
-<form id="my-form" method="post" accept-charset="utf-8">
-  <input type="hidden" name="_form" value="woofy-home-form">
-  <input type="hidden" name="dialcode" value="66">
-
-  <input type="hidden" name="template" value="themea">
-
+<form id="example-form" method="post" accept-charset="utf-8">
+  <input type="hidden" name="_template" value="themea">
   <div>
     <label>Name</label>
     <input type="text" name="firstname" value="">
@@ -37,7 +33,7 @@
 var client = new CapturooClient({
    publicApiKey: '{{ publicApiKey }}'
 });
-client.setForm('my-form');
+client.setForm('example-form');
 </script>
 </body>
 </html>

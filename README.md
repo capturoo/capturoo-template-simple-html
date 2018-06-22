@@ -11,5 +11,4 @@ This is a project template for the [Capturoo CLI tool for developers](https://ww
 
 ``` bash
 aroo init --template simple-html my-project
-aroo init --template vue my-vue-project
 ```
